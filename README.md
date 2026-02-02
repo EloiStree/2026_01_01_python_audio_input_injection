@@ -6,3 +6,18 @@ To look at later:
 - https://github.com/VirtualDrivers/Virtual-Audio-Driver
 - https://vb-audio.com/Voicemeeter/banana.htm
 - https://vac.muzychenko.net/en/
+
+
+Same as the audio Listener, in C# you can use 
+```
+using NAudio.Wave;
+using NAudio.CoreAudioApi;
+```
+
+
+Different solution in python 
+```
+pip install sounddevice numpy
+pip install pyaudio
+pip install pyaudiowpatch
+```
